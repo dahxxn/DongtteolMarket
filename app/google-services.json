@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "680044867277",
+    "project_id": "dongtteol",
+    "storage_bucket": "dongtteol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680044867277:android:b156a956bb90d36dd30384",
+        "android_client_info": {
+          "package_name": "com.example.dongtteolmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680044867277-f3812m49oifqf7q6qvr82obc2v9duo0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dongtteolmarket",
+            "certificate_hash": "b2d908f36ba369b94e5e4c3d4dbb4a8b4f5f8ef9"
+          }
+        },
+        {
+          "client_id": "680044867277-dvn81t0j124875enrcadnnderda0c362.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMetNlPSljSwa2oqXt2UoFWIDXTij0vrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680044867277-dvn81t0j124875enrcadnnderda0c362.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

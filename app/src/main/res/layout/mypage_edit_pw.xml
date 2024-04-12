@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_editPW_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 변경"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/kpbold"/>
+
+    <EditText
+        android:id="@+id/et_editPW_pw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/kp"
+        android:inputType="textPassword"
+        android:hint="비밀번호를 입력하세요"
+        />
+
+    <EditText
+        android:id="@+id/et_editPW_pw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@font/kp"
+        android:inputType="textPassword"
+        android:hint="비밀번호를 한번 더 입력하세요"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_editPW_change"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kp"
+        android:background="@drawable/statebox_yellow"
+        android:text="변경"
+        android:backgroundTint="@color/red"
+        android:textSize="14dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

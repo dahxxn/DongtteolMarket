@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_editArea_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kpbold"
+        android:text="지역 변경"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/et_editArea_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kp"
+        android:hint="지역 이름을 입력하세요"
+        android:textSize="12dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_editArea_change"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/statebox_yellow"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/kp"
+        android:text="변경"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/customToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kpbold"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/customer" />
+
+    <EditText
+        android:id="@+id/ed_join_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/kplight"
+        android:hint="이메일"
+        android:textSize="14sp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/ed_join_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60sp"
+        android:fontFamily="@font/kplight"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/ed_join_pw_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60sp"
+        android:fontFamily="@font/kplight"
+        android:hint="비밀번호확인"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+    <EditText
+        android:id="@+id/ed_join_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="60sp"
+        android:fontFamily="@font/kplight"
+        android:hint="닉네임"
+        android:textSize="14sp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="현재 위치 확인"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kp"
+            android:layout_marginLeft="3dp"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:backgroundTint="@color/red"
+            android:background="@drawable/location"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/kp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_join_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/statebox_green"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/kp"
+        android:text="구매자로 가입하기"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

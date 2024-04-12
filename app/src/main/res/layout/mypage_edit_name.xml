@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_editName_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름 변경"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/kpbold"/>
+
+    <EditText
+        android:id="@+id/et_editName_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:fontFamily="@font/kp"
+        android:hint="이름을 입력하세요"
+       />
+
+    <TextView
+        android:id="@+id/tv_editName_origin_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@font/kp"
+        android:textColor="@color/gray"
+        android:gravity="right"
+        android:text="원래 닉네임 : " />
+
+    <Button
+        android:id="@+id/bt_editName_change"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kp"
+        android:text="변경"
+        android:backgroundTint="@color/red"
+        android:textSize="14dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

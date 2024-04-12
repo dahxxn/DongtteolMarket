@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingVertical="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/tenada"
+        android:text="동떨마켓"
+        android:textColor="@color/black"
+        android:textSize="30sp"></TextView>
+
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/foods" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/kp"
+        android:text="지금 동떨마켓에서 \n우리 동네 떨이 상품을 구매해 보세요!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"></TextView>
+
+    <EditText
+        android:id="@+id/ed_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/kplight"
+        android:hint="이메일"
+        android:textSize="16dp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+    <EditText
+        android:id="@+id/ed_login_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="125dp"
+        android:fontFamily="@font/kplight"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="16dp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt_login_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:fontFamily="@font/kplight"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/bt_login_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/kplight"
+            android:text="로그인"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</FrameLayout>
